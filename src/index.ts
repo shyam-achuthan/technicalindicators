@@ -3,6 +3,7 @@ import FixedSizeLinkedList from "./Utils/FixedSizeLinkedList";
 export { CandleData, CandleList } from "./StockData";
 export  { sma, SMA } from './moving_averages/SMA'
 export  { ema, EMA }                       from  './moving_averages/EMA';
+export  { GMMA }                       from  './moving_averages/GMMA';
 export  { wma, WMA }                       from  './moving_averages/WMA';
 export  { wema, WEMA }                     from  './moving_averages/WEMA';
 export  { macd, MACD }                     from  './moving_averages/MACD';
